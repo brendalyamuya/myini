@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bus Ticket Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Bus Ticket Booking</h1>
+    <div id="bookingForm">
+        <label for="from">From:</label>
+        <input type="text" id="from" name="from">
+        <br>
+        <label for="to">To:</label>
+        <input type="text" id="to" name="to">
+        <br>
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date">
+        <br>
+        <button onclick="bookTicket()">Book Ticket</button>
+    </div>
+
+    <div id="bookingList">
+        <h2>Booking List</h2>
+        <ul id="bookingItems">
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
