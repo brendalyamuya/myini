@@ -10,8 +10,9 @@ h1 {
     margin: 20px auto;
     width: 300px;
     padding: 20px;
-    border: 1px solid #000;
+    border: 1px solid #faf7f7;
     border-radius: 5px;
+    box-shadow: 1px 1px 5px #333;
 }
 
 label,
@@ -22,6 +23,7 @@ input {
     border: none;
     border-radius: 5px;
     box-shadow: 1px 1px 5px #ccc;
+    color: #fff;
 }
 
 button {
@@ -42,8 +44,11 @@ button hover {
     margin: 20px auto;
     width: 600px;
     padding: 20px;
-    border: 1px solid #000;
+    border: 1px solid #faf7f7;
     border-radius: 5px;
+    color: #fff;
+    box-shadow: 1px 1px 5px #ccc;
+
 }
 
 #bookingItems {
