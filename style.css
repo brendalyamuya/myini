@@ -13,6 +13,7 @@ h1 {
     border: 1px solid #faf7f7;
     border-radius: 5px;
     box-shadow: 1px 1px 5px #333;
+    
 }
 
 
@@ -24,8 +25,11 @@ input {
     border-radius: 5px;
     box-shadow: 1px 1px 5px #ccc;
     color: #060606;
-    background-color: #ccc;
+    
+    /* background-color: #ccc; */
 }
+
+
 
 button {
     margin-top: 10px;
@@ -47,7 +51,7 @@ button hover {
     padding: 20px;
     border: 1px solid #faf7f7;
     border-radius: 5px;
-    color: #000000;
+    color: #ffffff;
     box-shadow: 1px 1px 5px #ccc;
 
 }
