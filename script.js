@@ -6,7 +6,7 @@ function bookTicket() {
     var to = document.getElementById("to").value;
     var date = document.getElementById("date").value;
 
-    if (username ==="" || from === "" || to === "" || date === "") {
+    if (username === "" || from === "" || to === "" || date === "") {
         alert("Please fill in all the fields.");
         return;
     }

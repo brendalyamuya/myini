@@ -15,7 +15,7 @@ h1 {
     box-shadow: 1px 1px 5px #333;
 }
 
-label,
+
 input {
     display: block;
     margin-bottom: 10px;
@@ -23,7 +23,8 @@ input {
     border: none;
     border-radius: 5px;
     box-shadow: 1px 1px 5px #ccc;
-    color: #fff;
+    color: #060606;
+    background-color: #ccc;
 }
 
 button {
@@ -46,7 +47,7 @@ button hover {
     padding: 20px;
     border: 1px solid #faf7f7;
     border-radius: 5px;
-    color: #fff;
+    color: #000000;
     box-shadow: 1px 1px 5px #ccc;
 
 }
